@@ -12,8 +12,8 @@ I have created an app which will allow my local vegetable vendor to deliver vege
 <img width="559" alt="sampleimages" src="https://github.com/SiddhantL/HariyaaliBazaarKotlin/blob/master/screenshots2.png?raw=true">
     	  	
 <b> Functionality & Concepts used : </b>
-The App 
 I have used concepts such as
+
 -Room DB, LiveData, ViewModel: They help save the grocery list in-app using the room database, so you don't have to write down your list for tomorrow anywhere else
 
 -Jetpack Navigation Library: Allows for great navigation and animations between fragments and screens
