@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">हरियाली Bazaar</string>
+    <string-array name="pincode_array">
+        <item>Pincode</item>
+        <item>400019</item>
+        <item>400022</item>
+    </string-array>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="description">description</string>
+    <string name="priority">Priority</string>
+    <string name="save">Save</string>
+    <string name="delete_all_notes">Delete all notes</string>
+</resources>

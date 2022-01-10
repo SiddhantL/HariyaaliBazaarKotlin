@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".OrderPlaced">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light"
+        app:layout_anchorGravity="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ToolbarThemeWhite">
+
+        <TextView
+            android:id="@+id/appbartextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="25dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <TextView
+            android:id="@+id/liveorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live Order"
+            android:textSize="25dp"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@id/liveorder"
+    android:id="@+id/recycler"/>
+
+        <TextView
+            android:id="@+id/pastorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler"
+            android:layout_marginTop="30dp"
+            android:text="Past Orders"
+            android:textSize="25dp"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/pastorder"
+    android:nestedScrollingEnabled="false"
+    android:id="@+id/recycler_past"/>
+</RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
