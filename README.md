@@ -12,7 +12,6 @@ I have created an app which will allow my local vegetable vendor to deliver vege
 <img width="559" alt="sampleimages" src="https://github.com/SiddhantL/HariyaaliBazaarKotlin/blob/master/screenshots2.png?raw=true">
     	  	
 <b> Functionality & Concepts used : </b>
-I have used concepts such as
 
 -Room DB, LiveData, ViewModel: They help save the grocery list in-app using the room database, so you don't have to write down your list for tomorrow anywhere else
 
@@ -29,8 +28,12 @@ I have used concepts such as
 -Material Design Elements: Helped add elements which made the app look better and made the app much more interactive 
 
 -Glide: To load images in the app 
+
 <b> Application Link & Future Scope : </b>
 
 This application is currently in Beta Test phase, when we launch the app, it will cater to a smaller area, to understand any issues or bugs, modify the app accordingly and with time continue expanding the area.
 
 The app will be launched on playstore
+
+## Contributors
+- [Siddhant Lad](https://www.linkedin.com/in/siddhant-lad-97b4331a0/)
