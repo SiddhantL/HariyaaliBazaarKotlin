@@ -8,7 +8,8 @@
 <b> Proposed Solution : </b>
 
 
-<img width="559" alt="sampleimages" src="https://user-images.githubusercontent.com/18289261/142846646-a6858641-ad88-43aa-b8bb-b690fd7126f1.png">
+<img width="559" alt="sampleimages" src="https://github.com/SiddhantL/HariyaaliBazaarKotlin/blob/master/screenshots1.png?raw=true">
+<img width="559" alt="sampleimages" src="https://github.com/SiddhantL/HariyaaliBazaarKotlin/blob/master/screenshots2.png?raw=true">
     	  	
 <b> Functionality & Concepts used : </b>
 
