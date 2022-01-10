@@ -1,6 +1,6 @@
-# Hariyaali Bazaar
+# हरियाली Bazaar
 
- Hariyaali Bazaar is an online supermarket for all your daily vegetable/fruits/beans needs. Online shopping now made easy with a wide range of items, delivered to your doorstep
+ हरियाली Bazaar is an online supermarket for all your daily vegetable/fruits/beans needs. Online shopping now made easy with a wide range of items, delivered to your doorstep
 
 <b> Problem Statement: </b>
 
